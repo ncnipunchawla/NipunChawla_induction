@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  <head>
+    <title>practice</title>
+  <body>
+	<script>
+		window.alert("Practice");
+	</script>
+	<p>
+		this is a practice page.
+	</p>
+  </body>
+<html>
