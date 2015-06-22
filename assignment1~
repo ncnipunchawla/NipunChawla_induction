@@ -1,0 +1,27 @@
+<html>
+    <head>
+	<title>Assignment1</title>
+    </head>
+    <body>
+	<style>
+	    div.first {
+		float:left;
+		background-color:red;
+		padding:10px;
+		}
+	    div.second {
+		float:left;
+		background-color:yellow;
+		padding:10px;
+		position:relative;
+		left:10px;
+		}
+	</style>
+        <div class = "first">
+	    This is a first division.
+	</div>
+        <div class = "second">
+	    This is a Second division.
+	</div>
+    </body>
+</html>

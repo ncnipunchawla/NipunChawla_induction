@@ -1,13 +1,17 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>practice</title>
-  <body>
-	<script>
-		window.alert("Practice");
-	</script>
-	<p>
-		this is a practice page.
-	</p>
-  </body>
-<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+function myFunction{
+return "Hello";
+}
+document.getElementById("demo").innerHTML = myFunction();
+
+</script>
+
+</body>
+</html>
+

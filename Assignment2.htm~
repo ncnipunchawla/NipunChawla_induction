@@ -1,0 +1,22 @@
+<html>
+    <head>
+	<title>
+	    Assignment2
+	</title>
+    <style>
+	.blk {
+	    display:block;
+}
+    </style>
+    </head>
+    <body>
+	<form>
+		<label class = "blk" for = "firstname">FirstName</label>
+		<input type = "text"></input>
+		<label class = "blk" for = "middlename">MiddleName</label>
+		<input type = "text"></input>
+		<label class = "blk" for = "lastname">LastName</label>
+		<input type = "text"></input>
+	</form>
+    </body>
+</html>

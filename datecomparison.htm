@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>date</title>
+    </head>
+    <body>
+        <form>
+            Enter First Date:
+            <input id  = "demo" type="date">
+            Enter Second Date:'
+            <input type="date" id = "demo1">
+            <button type = "button" onclick=myFunction()>Compare</button>
+        </form>
+        <script>
+             function myFunction() {
+             var x = document.getElementById("demo").value;
+             var y = new Date(x);
+             var mil1 = y.getTime();
+             var a = document.getElementById("demo1").value;
+             var b = new Date(a);
+             var mil2 = b.getTime();
+             if(mil1>mil2) {
+                 window.alert(x+" "+ "is the recent date");
+             }
+             else {
+                 window.alert(a+" "+ "is the recent date");
+             }
+}
+         </script>
+    </body>
+<html>

@@ -1,0 +1,13 @@
+<html>
+    <head>
+	<link rel = "stylesheet" type = "text/css" href = "Assignment3.css">
+	<title>
+	    Assignment3
+	</title>
+    </head>
+    <body>
+	<div>
+	        This is the first division on which the inline css is applied and its abckground color is white and its text color is black.
+	</div>
+    </body>
+</html>
